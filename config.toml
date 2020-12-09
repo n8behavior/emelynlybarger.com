@@ -2,6 +2,7 @@ languageCode  = "en-us"
 title         = "Emelyn Lybarger"
 theme         = "roxo"
 summarylength = 25
+baseURL       = "https://n8behavior.gitlab.io/emelyn-lybarger-website/"
 
 # Site Menus
 [menu]
