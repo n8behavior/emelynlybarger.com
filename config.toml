@@ -3,6 +3,7 @@ title         = "Emelyn Lybarger"
 theme         = "roxo"
 summarylength = 25
 baseURL       = "https://n8behavior.gitlab.io/emelyn-lybarger-website/"
+canonifyurls  = true
 
 # Site Menus
 [menu]
