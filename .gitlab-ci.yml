@@ -1,4 +1,7 @@
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+# You can override the included template(s) by including variable overrides
+# See https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#priority-of-environment-variables
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -15,3 +18,9 @@ pages:
     - public
   only:
   - master
+stages:
+- test
+sast:
+  stage: test
+include:
+- template: Security/SAST.gitlab-ci.yml
