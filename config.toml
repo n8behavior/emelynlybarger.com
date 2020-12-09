@@ -1,6 +1,5 @@
-baseURL       = "http://example.org/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Emelyn Lybarger"
 theme         = "roxo"
 summarylength = 25
 
@@ -29,12 +28,12 @@ summarylength = 25
   logo = "images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = ""
+  author = "Emelyn Lybarger"
   # Google Analitycs
-  googleAnalitycsID = "Your ID"
+  googleAnalitycsID = ""
   # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  formspreeFormUrl  = ""
   
   # Navbar Action Button
   [params.navAction]
@@ -47,9 +46,9 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "Read Some Stuff"
+    heading               = "Somatic Learning For Lasting Change"
+    tagline               = "LIFE & LEADERSHIP COACHING"
+    primary_button        = "Recent Posts"
     primary_button_url    = "blog"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
@@ -58,7 +57,7 @@ summarylength = 25
     enable              = false
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
+    primary_button      = "Contact Us"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
     secondary_button_url = "portfolio"
@@ -67,14 +66,14 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "4374 Dublin Rd.<br>Columbus, OH 43221"
+      phone   = "614-499-0000"
+      email   = "email@emelynlybarger.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "About"
           url  = "about"
         [[params.footer.sitemap.link]]
           name = "Blog"
@@ -99,5 +98,5 @@ summarylength = 25
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "We help:"
+        description = "develop...<br>produce valuable cultural...<br>create..."
