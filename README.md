@@ -16,7 +16,7 @@ This will abort if there are errors or pending changes in the working directory 
 
 ## Manual Publishing
 
-To publish to the GitHub pages project site do the followinging from `main` branch.  Note, my remote is called `gh`, yours might be called `origin`, so adjust the `git push ...` below as-needed.
+To publish to the GitHub pages project site do the followinging from `main` branch.
 
 ### Setup for building
 
@@ -24,7 +24,7 @@ Make sure you have the `gh-pages` branch checked out into `public/` using `git w
 
 ```
 rm -rf public
-git worktree add -B gh-pages public gh/gh-pages
+git worktree add -B gh-pages public origin/gh-pages
 ```
 
 ### Build
@@ -42,5 +42,5 @@ cd public
 git add --all
 git commit -m "Publishing to gh-pages"
 cd -
-git push gh gh-gages
+git push origin gh-gages
 ```
