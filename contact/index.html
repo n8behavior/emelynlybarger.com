@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8" />
-  <title>Being Mindful</title>
+  <title>Contact</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,34 +88,57 @@
   </div>
 </nav>
 <main>
-
-<section class="site-blog details">
+<section class="site-contact">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <article class="site-blog-details">
-          <p><span>December 24, 2020</span> by <span>Emelyn Lybarger</span></p>
-          <h2 class="blog-title">Being Mindful</h2>
-          <p><img src="images/feature.jpg" alt="my alt text"></p>
-<p>Stuff I want to say goes here&hellip;</p>
-<h3 id="more-stuff">More Stuff</h3>
-<p>More stuff I have to say</p>
-<blockquote>
-<p>&ldquo;Stuff other people said&rdquo;</p>
-</blockquote>
-<h3 id="thats-a-wrap">That&rsquo;s a Wrap</h3>
-<p>And that&rsquo;s all I have to say</p>
-
-        </article>
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          Don’t be shy. Say <span>Hello.</span>
+        </h1>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+          <h4>TELL US ABOUT YOUR PROJECT</h4>
+          <form id="contact-form" action="" method="POST">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="first-name" id="first-name" placeholder="First Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Last Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              </div>
+              <div class="col-lg-6">
+                <div class="select-wrapper">
+                  <select class="form-control" id="projectType" name="project-type">
+                    <option value="" selected disabled hidden>Project Type</option>
+                    <option value="gd">Graphics Design</option>
+                    <option value="wb">Web Design</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="About the Project"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
+                  <span class="btn-area">
+                    <span data-text="Send Message">
+                      Send Message
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <p id="contact-form-status"></p>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
-
-  
-
-
 
         </main><footer class="site-footer">
   <div class="container">
