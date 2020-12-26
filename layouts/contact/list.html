@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section class="site-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          Let's chat
+        </h1>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+          <h4>What goes here?</h4>
+          <form id="contact-form" name="submit-to-google-sheet">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="first" id="first-name" placeholder="First Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="last" id="last-name" placeholder="Last Name">
+              </div>
+              <div class="col-lg-12">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="comment" name="comment" rows="6" placeholder="How can I help?"></textarea>
+              </div>
+              <div class="col-lg-12">
+                  <input type="checkbox" name="listserv">
+                  <label for="listserv">Subscribe me to the newsletter</label>
+              </div>
+              <div class="col-lg-12">
+                  <input type="checkbox" name="consult">
+                  <label for="consult">I would like a consultation session</label>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
+                  <span class="btn-area">
+                    <span data-text="Send Message">
+                      Send Message
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <p id="contact-form-status"></p>
+            </div>
+          </form>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbygcGToWFDXMINiyexoZ8cbxa0klE-FyVweSuU22-tfguWkrtNbPP0cLA/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
