@@ -4,12 +4,12 @@
     <div class="row">
       <div class="col-lg-5">
         <h1 class="site-contact-title">
-          Let's chat
+          {{ .Params.heading }}
         </h1>
       </div>
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
-          <h4>What goes here?</h4>
+            <h4>{{ .Params.formTitle }}</h4>
           <form id="contact-form" name="submit-to-google-sheet">
             <div class="row">
               <div class="col-lg-6">
