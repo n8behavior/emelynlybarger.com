@@ -11,7 +11,22 @@
         {
             "label": "post",
             "type": "shell",
-            "command": "hugo new --kind post blog/foo"
+            "command": "hugo",
+            "args": [
+                "new",
+                "--kind",
+                "post",
+                "blog/${input:postName}"
+            ],
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "postName",
+            "type": "promptString",
+            "description": "Name of post",
+            "default": "my-new-post"
         }
     ]
 }
