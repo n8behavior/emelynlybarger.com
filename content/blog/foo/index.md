@@ -1,12 +1,12 @@
 ---
-title: "Being Mindful"
-date: 2020-12-22
-image: blog/being-mindful/images/thumb.jpg
+title: "Foo"
+date: 2020-12-26T18:52:13-05:00
+image: blog/foo/images/feature.jpg
 author: Emelyn Lybarger
 ---
 
 
-![my alt text](images/feature.jpg)
+![my alt text](images/thumb.jpg)
 
 Stuff I want to say goes here...
 

@@ -1,7 +1,7 @@
 ---
-title: "Being Mindful"
-date: 2020-12-22
-image: blog/being-mindful/images/thumb.jpg
+title: "Mikey Postie"
+date: 2020-12-26T18:35:51-05:00
+image: blog/mikey-postie/images/thumb.jpg
 author: Emelyn Lybarger
 ---
 
