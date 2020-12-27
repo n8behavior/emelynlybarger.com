@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/about/</loc>
-    <lastmod>2018-07-12T18:19:33+06:00</lastmod>
+    <loc>https://n8behavior.github.io/emelyn-lybarger-website/</loc>
+    <lastmod>2020-12-26T20:12:41-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/</loc>
+    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/</loc>
+    <lastmod>2020-12-26T20:12:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/my-old-post/</loc>
+    <lastmod>2020-12-26T20:12:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n8behavior.github.io/emelyn-lybarger-website/about/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
@@ -18,10 +28,6 @@
   
   <url>
     <loc>https://n8behavior.github.io/emelyn-lybarger-website/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/</loc>
   </url>
   
   <url>
