@@ -1,6 +1,6 @@
 ---
 title: "Together We're Better"
-date: 2020-10-6T18:16:05-05:00
+date: 2020-10-06T18:16:05-05:00
 image: blog/together-were-better/images/bettertogetherthumb.jpg
 author: Emelyn Lybarger
 ---
