@@ -1,7 +1,7 @@
 ---
 title: "My Old Post"
 date: 2020-12-26T20:12:41-05:00
-image: blog/my-old-post/images/backyard.jpg
+image: blog/my-old-post/images/thumb.jpg
 author: Emelyn Lybarger
 ---
 
