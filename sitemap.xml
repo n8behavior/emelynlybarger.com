@@ -3,42 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/</loc>
-    <lastmod>2020-12-26T18:52:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/foo/</loc>
-    <lastmod>2020-12-26T18:52:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/</loc>
-    <lastmod>2020-12-26T18:52:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/mikey-postie/</loc>
-    <lastmod>2020-12-26T18:35:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/just-being/</loc>
-    <lastmod>2020-12-24T16:43:52-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/being-mindless/</loc>
-    <lastmod>2020-12-24T16:42:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/being-mindful/</loc>
-    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://n8behavior.github.io/emelyn-lybarger-website/about/</loc>
+    <lastmod>2018-07-12T18:19:33+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n8behavior.github.io/emelyn-lybarger-website/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
@@ -48,6 +18,10 @@
   
   <url>
     <loc>https://n8behavior.github.io/emelyn-lybarger-website/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://n8behavior.github.io/emelyn-lybarger-website/blog/</loc>
   </url>
   
   <url>
