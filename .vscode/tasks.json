@@ -6,7 +6,8 @@
         {
             "label": "publish",
             "type": "shell",
-            "command": "${workspaceFolder}/publish"
+            "command": "${workspaceFolder}/publish",
+            "problemMatcher": []
         },
         {
             "label": "post",
