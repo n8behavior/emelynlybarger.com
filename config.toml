@@ -69,8 +69,8 @@ canonifyurls  = true
     [params.footer.contactInfo]
       title   = "Contact Info"
       address = "4374 Dublin Rd.<br>Columbus, OH 43221"
-      phone   = "614-499-0000"
-      email   = "email@emelynlybarger.com"
+      phone   = "614-499-2815"
+      email   = "emelyn@emelynlybarger.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
