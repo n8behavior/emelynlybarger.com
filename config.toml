@@ -48,7 +48,7 @@ canonifyurls  = true
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Somatic Learning For Lasting Change"
+    heading               = "Mind-Body Learning For Lasting Change"
     tagline               = "LIFE & LEADERSHIP COACHING"
     primary_button        = "Recent Posts"
     primary_button_url    = "blog"
