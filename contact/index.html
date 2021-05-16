@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8" />
+  <title>Connect</title>
 
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+  <meta name="author" content="Emelyn Lybarger">
+  
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- Bootstrap -->
+  
+  <link rel="stylesheet" href="https://n8behavior.github.io/emelyn-lybarger-website/css/bootstrap.min.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://n8behavior.github.io/emelyn-lybarger-website/font-awesome/css/font-awesome.min.css" />
+  <!-- Main Stylesheets -->
+  
+  <link href="https://n8behavior.github.io/emelyn-lybarger-website/scss/style.min.css" rel="stylesheet" />
+
+  
+  <link rel="shortcut icon" href="https://n8behavior.github.io/emelyn-lybarger-website/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="https://n8behavior.github.io/emelyn-lybarger-website/images/favicon.ico" type="image/x-icon" />
+</head><body><nav class="navbar navbar-expand-lg site-navigation">
+  <div class="container">
+    
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+         
+         
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://n8behavior.github.io/emelyn-lybarger-website/"
+              >Home</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://n8behavior.github.io/emelyn-lybarger-website/about"
+              >About</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://n8behavior.github.io/emelyn-lybarger-website/blog"
+              >Blog</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-sm btn-primary btn-sm-rounded"
+              href="https://n8behavior.github.io/emelyn-lybarger-website/contact"
+            >
+              <span class="btn-area">
+                <span data-text="Get in touch">
+                  Get in touch
+                </span>
+              </span>
+            </a>
+          </li>
+           
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+<section class="site-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          Let&#39;s chat
+        </h1>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+            <h4>What&#39;s up?</h4>
+          <form id="contact-form" name="submit-to-google-sheet">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="first" id="first-name" placeholder="First Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="last" id="last-name" placeholder="Last Name">
+              </div>
+              <div class="col-lg-12">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="comment" name="comment" rows="6" placeholder="How can I help?"></textarea>
+              </div>
+              <div class="col-lg-12">
+                  <input type="checkbox" name="listserv">
+                  <label for="listserv">Subscribe me to the newsletter</label>
+              </div>
+              <div class="col-lg-12">
+                  <input type="checkbox" name="consult">
+                  <label for="consult">I would like a consultation session</label>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
+                  <span class="btn-area">
+                    <span data-text="Send Message">
+                      Send Message
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <p id="contact-form-status"></p>
+            </div>
+          </form>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbygcGToWFDXMINiyexoZ8cbxa0klE-FyVweSuU22-tfguWkrtNbPP0cLA/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        </main><footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-footer-logo"><a href="https://n8behavior.github.io/emelyn-lybarger-website/"><img src="https://n8behavior.github.io/emelyn-lybarger-website/images/logo-footer.png" alt="logo-footer"></a></div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Contact Info</h5>
+          <p class="site-footer-widget-description">
+            4374 Dublin Rd.<br>Columbus, OH 43221
+            <br>
+            <a href="tel:614-499-2815">614-499-2815</a>
+            <br>
+            <a href="mailto:emelyn@emelynlybarger.com">emelyn@emelynlybarger.com</a>
+          </p>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Sitemap</h5>
+          <ul class="site-footer-widget-links">
+            
+            <li><a href="https://n8behavior.github.io/emelyn-lybarger-website/about">About</a></li>
+            
+            <li><a href="https://n8behavior.github.io/emelyn-lybarger-website/blog">Blog</a></li>
+            
+            <li><a href="https://n8behavior.github.io/emelyn-lybarger-website/contact">Contact</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-lg-2 col-12">
+        <a href="#top" class="site-footer-widget-top">
+          <img src="https://n8behavior.github.io/emelyn-lybarger-website/images/to-top.svg" alt="back-to-top">
+          <p>
+            I want to 
+            <br>
+            visit again
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://n8behavior.github.io/emelyn-lybarger-website/js/formhandler.min.js"></script>
+
+<script src="https://n8behavior.github.io/emelyn-lybarger-website/js/vendor.min.js"></script>
+
+<script src="https://n8behavior.github.io/emelyn-lybarger-website/js/script.min.js"></script>
+</body>
+</html>
