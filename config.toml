@@ -8,22 +8,22 @@ canonifyurls  = true
 # Site Menus
 [menu]
   # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
-    name    = "About"
-    url     = "about"
-    weight  = 2
-  [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Get in touch"
-    url     = "contact"
-    weight  = 4
+#  [[menu.nav]]
+#    name    = "Home"
+#    url     = ""
+#    weight  = 1
+#  [[menu.nav]]
+#    name    = "About"
+#    url     = "about"
+#    weight  = 2
+#  [[menu.nav]]
+#    name    = "Blog"
+#    url     = "blog"
+#    weight  = 3
+#  [[menu.nav]]
+#    name    = "Get in touch"
+#    url     = "contact"
+#    weight  = 4
 
 # Site Params
 [params]
@@ -48,8 +48,8 @@ canonifyurls  = true
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Mind-Body Learning For Lasting Change"
-    tagline               = "LIFE & LEADERSHIP COACHING"
+#    heading               = "Mind-Body Learning For Lasting Change"
+#    tagline               = "LIFE & LEADERSHIP COACHING"
     primary_button        = "Recent Posts"
     primary_button_url    = "blog"
     secondary_button      = "Connect with Us"
